@@ -1,0 +1,425 @@
+#first_container
+{
+    width:100%;
+    height: 500px;
+    border: 2px solid transparent;
+    background-image: url("images/variety-baked-breads-frame-with-copy-space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+body
+{
+    align-content: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Box_container
+{
+    width:400px;
+    height: 350px;
+    border: 2px solid  transparent;
+    margin-top: 88px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+#first_div
+{
+    border: 2px solid transparent;
+    width: 300px;
+    height: 200px;
+
+}
+#second_div
+{
+    border: 2px solid transparent;
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+}
+#second_div>div
+{
+    border: 2px solid transparent;
+    width:30%;
+    height: 100px;
+    line-height: 4px; 
+}
+#first_div>pre
+{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#first_div>p
+{
+    font-size: 12px;
+    letter-spacing: 6px;
+    font-family: sans-serif;
+}
+.pre_div
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+#second_div>div>p
+{
+    font-size: 10px;
+}
+#second_container
+{
+    width:100%;
+    height: auto;
+    border: 2px solid transparent;
+    margin-top: 60px;
+    text-align: center;
+}
+#second_box1
+{
+    width:100%;
+    height:auto;
+    border: 2px soild transparent;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+#second_box2
+{
+    width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;  
+}
+#second_box2>div
+{
+    width:230px ;
+    height: auto;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pic_hover
+{
+   width: 60px;
+   height: 60px;
+   border: 2px solid transparent;
+}
+.pic_hover>img
+{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+.content_box
+{
+   width: 150px;
+   height: 110px;
+   border: 2px solid transparent;
+   line-height: 0px;
+}
+.content_box>p
+{
+    font-size: 10px;
+    line-height: 3px;
+    letter-spacing: 0.5px;
+}
+.content_box>pre
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+#third_container
+{
+    width:100%;
+    height: auto;
+    border: 2px solid transparent;
+    background-image: url("images/close-up-hands-holding-tasty-bread__01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+#third_box
+{
+    width: 400px;
+    height: 250px;
+    border: 2px solid transparent;
+    line-height: 1px;
+    margin: 60px 20px;
+}
+#third_box>pre
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+#third_box>p
+{
+    font-size: 12px;
+}
+#third_box>input
+{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+#fourth_container
+{
+    border: 2px solid transparent;
+    width:100%;
+    height: auto;
+    background-color: rgb(233, 233, 233);
+}
+#fourth_container>p
+{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+#fifth_container
+{
+    width:100%;
+    height: auto;
+    border: 2px solid transparent;
+    background-color: rgb(233, 233, 233);
+
+}
+#fifth_box1
+{
+    width:90%;
+    height:auto ;
+    border: 2px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+}
+#fifth_box1>div
+{
+    width:150px ;
+    height: 250px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.pic_hover5>img
+{
+    width:120px;
+    height: 100px;
+    border:2px solid transparent;
+    margin-left: 13px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.context_box5
+{
+    width:120px ;
+    height: 110px;
+    border: 2px solid  transparent;
+    margin-left: 13px;
+    line-height: 3px;
+    text-align: center;
+}
+.context_box5>p
+{
+   font-size: 10px;
+   font-weight: lighter;
+}
+.context_box5>pre
+{
+   font-size: 13px;
+   font-weight: bold;
+}
+#fifth_second_box5
+{
+    width:650px;
+    height:auto ;
+    border: 2px solid transparent;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+#first_fifth_box
+{
+    width: 200px;
+    height: auto;
+    border: 2px solid transparent;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+#fifth_box2
+{
+    width: 200px;
+    height: 150px;
+    border: 2px solid transparent;
+    line-height: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+#fifth_box3>img
+{
+   width: 200px;
+   height: 300px;
+   border-radius: 20px;
+}
+#fifth_box4>img
+{
+    width:200px ;
+    height:300px ;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 20px;
+
+}
+#sixth_container
+{
+    width:100%;
+    height: auto;
+    border: 2px solid transparent;
+    line-height: 3px;
+    justify-content: center;
+}
+#sixth_container>div
+{
+    margin: auto;
+    padding: 50px;
+    width: 50%;
+    
+}
+#sixth_container>div>.para
+{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+#sixth_container>div>p
+{
+    font-size: 10px;
+    line-height: 15px;
+}
+#sixth_container>div>input
+{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+#seventh_container
+{
+    width:100%;
+    height: auto;
+    border: 2px solid transparent;
+    background-image: url("images/pexels-skyler-ewing-10011794.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px 0;
+}
+#seventh_box1
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+#seventh_box2
+{
+    border: 2px solid transparent;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+#seventh_box2>div
+{
+    border: 2px solid transparent;
+    width: 180px;
+    height:160px ;
+    background-color: white;
+    line-height: 3px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+#seventh_box2>div>pre
+{
+    font-size: 15px;
+    font-weight: bold;
+} 
+#seventh_box2>div>p
+{
+    font-size: 13px;
+    line-height: 8px;
+} 
+#eigth_container
+{
+    width:100%;
+    height: auto;
+    border: 2px solid transparent;
+    text-align: center;
+    line-height: 2px;
+}
+#eigth_container>.heading_para
+{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+}
+#eigth_container>p
+{
+    font-size: 10px;
+}
+#eigth_container>input
+{
+    font-size: 12px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+#ninth_container
+{
+    width:100%;
+    height: auto;
+    border: 2px solid transparent;
+}
+#ninth_container>div
+{
+    width:500px;
+    height: 500px;
+    background-image: url("images/mix-bread.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
